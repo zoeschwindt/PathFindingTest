@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: b2f64150887af0240a338ab10ce6b6b0
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None
+    second: {fileID: 2100000, guid: 5f379216863e78c4cb0cec610e1a7b18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None.009
+    second: {fileID: 2100000, guid: f87394f7b69477d4f94b79b14cdb661e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: and_robotcutout
+    second: {fileID: 2100000, guid: 9bf2982577b6bff41af47915f9ad940c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aztec_sign_01_it
+    second: {fileID: 2100000, guid: bc5e1c39dcdfa894a8200fc3c106af0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bldg_church_stai
+    second: {fileID: 2100000, guid: 48873237d58d87749a16b1f4d2922e73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bldg_duff_billbo
+    second: {fileID: 2100000, guid: b5ff61e58ec6dbf4db4aef3d10650fde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bldg_moes_fixed_sign
+    second: {fileID: 2100000, guid: 23d215bf9e27e4f4fb3ddfbaeafed547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bldg_police_lite
+    second: {fileID: 2100000, guid: b7d2c213ee9052646900afc9d84d8e8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bldg_police_sign
+    second: {fileID: 2100000, guid: 8dcfd82a4f04b524eaf587b01300abb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bldg_school_sign
+    second: {fileID: 2100000, guid: 95b77c03c98bcee43beaa08f3bd35c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dod_water_col
+    second: {fileID: 2100000, guid: dff432a23a4bbd945acfdc16acdc7dee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dod_water_overla
+    second: {fileID: 2100000, guid: 46e1d4304d0cc3a4f90af672e64536f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass_dualtone_m
+    second: {fileID: 2100000, guid: 8066b5c61f0613a478ab76718350973b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gts_woodwall01
+    second: {fileID: 2100000, guid: 28411a159a1381440984a8e3da3c352a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hug_sawdustmound
+    second: {fileID: 2100000, guid: cbc9eabaa1666a042ad7be7d6b8fd7eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hug_water_col
+    second: {fileID: 2100000, guid: fc849638dd471c64683ebd920f672fde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hug_water_overla
+    second: {fileID: 2100000, guid: edd83490fc97ac840956f8b0aa9254e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_crack01
+    second: {fileID: 2100000, guid: acc095dac1752614c9a96f755eb33c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_crack02
+    second: {fileID: 2100000, guid: 5e68a2add2b9ce44782613fc9cb0a024, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_dirt_layer
+    second: {fileID: 2100000, guid: cf84afa8c46c16141805727c110fdf02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_grate
+    second: {fileID: 2100000, guid: 59b46838ee2ecc141989edd691c417ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_gtsposter01
+    second: {fileID: 2100000, guid: 25e517c41c37f764caf25e5cdca5744f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_gtsposter02
+    second: {fileID: 2100000, guid: 9eaf81a472d0a3141aeef3f34c956e22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_gtsposter03
+    second: {fileID: 2100000, guid: e71f9d8896ad72849a22aca39fe8c862, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_stagefloor
+    second: {fileID: 2100000, guid: 30345af2bd604b84dbe7613ebd8d8b5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_stain
+    second: {fileID: 2100000, guid: 4afb91159a92af746baebab13f2c481c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mob_wood
+    second: {fileID: 2100000, guid: e6c343798d6390f478d650b6ae40d29f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rwc_grass
+    second: {fileID: 2100000, guid: 9b253916e707bd945a7359e90ceba899, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scd_ealogo
+    second: {fileID: 2100000, guid: 2f3fd05c0b1a248409990713bddd0c3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sign_krusty_logo
+    second: {fileID: 2100000, guid: d4045122ff9b7fc409d63ebf55ee49e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: simpson_palette
+    second: {fileID: 2100000, guid: c0667b504644a59488e3ec1d1125b678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: simpson_palette.001
+    second: {fileID: 2100000, guid: 1d4cbc5d5506c9b4ea08adc84f412f65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_aircondition
+    second: {fileID: 2100000, guid: 71c918fd2e22e6a43889c5229c1b1702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_animationPos_noesisdupname_006
+    second: {fileID: 2100000, guid: fef702e9b9b362e4c9351a5b221256c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_coilofrope
+    second: {fileID: 2100000, guid: add5cea7fb18d1845b9101512790b166, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_courthouse_c
+    second: {fileID: 2100000, guid: e401bbdd025ba8045a86555c465fc680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_courthouse_s
+    second: {fileID: 2100000, guid: cfd7faf3bc010c64d9506b232901384c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_debris_paper
+    second: {fileID: 2100000, guid: 9e8a4bbee5a6d534e8a4005be0f9c20e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_debris_paper_noesisdupname_001
+    second: {fileID: 2100000, guid: 73479ab6d6d975a43bf1534da220ce73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_debris_paper_noesisdupname_002
+    second: {fileID: 2100000, guid: d82332870df22fc4a9012f46e8bdbd37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_dirt01
+    second: {fileID: 2100000, guid: 93648a27a10f06848985427c8da275a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_fireescape_s
+    second: {fileID: 2100000, guid: e5b953a6b7bb6d641a3db6480679d54c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_grass
+    second: {fileID: 2100000, guid: bec3a56662ad87647a1e32046b1bc593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_grassedge
+    second: {fileID: 2100000, guid: e4ebcce6c06fc1140a1ed3d7487e8669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_maggie_duct
+    second: {fileID: 2100000, guid: 9d428a2c182fede41bb932dcef021806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_moh_tree
+    second: {fileID: 2100000, guid: cf0cf81965da91e47b3e63d29c96076a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_museum02
+    second: {fileID: 2100000, guid: dc271684eebd0f14580d2e21c2a2eb2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_pwr_shutter
+    second: {fileID: 2100000, guid: 58b37694617614542907344d6b940270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_quarterpipe
+    second: {fileID: 2100000, guid: 7855cc7f4d5796b4594661d5b239f0cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_retirement_s
+    second: {fileID: 2100000, guid: 22f18f42d2fd12046bd3d00d611875a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_roofoverlay2
+    second: {fileID: 2100000, guid: 71805cccd1bc79b4f9ebd868a4fe6aa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_sleepezsign1
+    second: {fileID: 2100000, guid: e392349d6a017214ca7b1435a2f327e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_sleepezsign2
+    second: {fileID: 2100000, guid: 25e8dc3a88a4a2f458e2818d36c0925a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_tree_truffle
+    second: {fileID: 2100000, guid: 6b22ea3b709ea3d48b76cc9509f248b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_wall_roof1
+    second: {fileID: 2100000, guid: c3faf9e040c61e1458f4632ceea2ff0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_woodplank02
+    second: {fileID: 2100000, guid: 9b9402db27fd9784da3c2359af1279bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_woodplank1
+    second: {fileID: 2100000, guid: 825e1a82ae4cf454eb0f0a8b978d82a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spr_zone_04_reta
+    second: {fileID: 2100000, guid: 207e48164f1db214da0e3848c4251365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: springfield_sign
+    second: {fileID: 2100000, guid: 8ba810becd665bf409a54ff145555423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zone02_brick01
+    second: {fileID: 2100000, guid: 6972bf0a227169b4a9c3d0d285d2f6b8, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
