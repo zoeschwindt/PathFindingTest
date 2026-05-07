@@ -1,0 +1,708 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2667aae7eaa2da44eb7c5015b5d2be5a, type: 3}
+  m_Name: Group 2
+  m_EditorClassIdentifier: Assembly-CSharp::VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Group
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 7472291411854431614, guid: e3e9e017aca2a734091f2308ba490095, type: 3}
+    - {fileID: 4698441384723210525, guid: 5fef5c7453164a5458e955627e14dd34, type: 3}
+    - {fileID: 482975636635166532, guid: 5000f77318624fb4e92e9b7690206859, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _prototypeType
+      Entry: 7
+      Data: 0|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.PrototypeTerrainDetail,
+        Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: PrototypeList
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.Prototype,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 2|VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.PrototypeTerrainDetail,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 77052
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: Active
+      Entry: 5
+      Data: true
+    - Name: ComponentStack
+      Entry: 7
+      Data: 3|VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 5|VladislavTsurikov.MegaWorld.BrushEraseTool.ScriptsEditor.PrototypeSettings.AdditionalEraseComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VladislavTsurikov.MegaWorld.BrushEraseTool.ScriptsEditor.BrushEraseTool,
+        Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: SuccessForErase
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.SpawnDetailComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 10|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VladislavTsurikov.MegaWorld.AdvancedBrushTool.ScriptsEditor.AdvancedBrushTool,
+        Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VladislavTsurikov.MegaWorld.TerrainSpawner.Scripts.TerrainSpawner, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: UseRandomOpacity
+      Entry: 5
+      Data: true
+    - Name: Density
+      Entry: 3
+      Data: 5
+    - Name: FailureRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: Stack
+      Entry: 7
+      Data: 14|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilter,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FilterContext
+      Entry: 6
+      Data: 
+    - Name: FilterMaskTexture2D
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TerrainProtoId
+      Entry: 3
+      Data: 4
+    - Name: PrefabType
+      Entry: 3
+      Data: 0
+    - Name: DetailTexture
+      Entry: 6
+      Data: 
+    - Name: Prefab
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.PrototypeTerrainDetail,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 76984
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: Active
+      Entry: 5
+      Data: true
+    - Name: ComponentStack
+      Entry: 7
+      Data: 17|VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 19|VladislavTsurikov.MegaWorld.BrushEraseTool.ScriptsEditor.PrototypeSettings.AdditionalEraseComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: SuccessForErase
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.SpawnDetailComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: UseRandomOpacity
+      Entry: 5
+      Data: true
+    - Name: Density
+      Entry: 3
+      Data: 5
+    - Name: FailureRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: Stack
+      Entry: 7
+      Data: 25|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 26|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilter,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FilterContext
+      Entry: 6
+      Data: 
+    - Name: FilterMaskTexture2D
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TerrainProtoId
+      Entry: 3
+      Data: 5
+    - Name: PrefabType
+      Entry: 3
+      Data: 0
+    - Name: DetailTexture
+      Entry: 6
+      Data: 
+    - Name: Prefab
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.PrototypeTerrainDetail,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 76884
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: Active
+      Entry: 5
+      Data: true
+    - Name: ComponentStack
+      Entry: 7
+      Data: 28|VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 30|VladislavTsurikov.MegaWorld.BrushEraseTool.ScriptsEditor.PrototypeSettings.AdditionalEraseComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: SuccessForErase
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.SpawnDetailComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: UseRandomOpacity
+      Entry: 5
+      Data: true
+    - Name: Density
+      Entry: 3
+      Data: 5
+    - Name: FailureRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 35|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: Stack
+      Entry: 7
+      Data: 36|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilter,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FilterContext
+      Entry: 6
+      Data: 
+    - Name: FilterMaskTexture2D
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TerrainProtoId
+      Entry: 3
+      Data: 6
+    - Name: PrefabType
+      Entry: 3
+      Data: 0
+    - Name: DetailTexture
+      Entry: 6
+      Data: 
+    - Name: Prefab
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ComponentStack
+      Entry: 7
+      Data: 38|VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 40|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: Stack
+      Entry: 7
+      Data: 42|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilter,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FilterContext
+      Entry: 6
+      Data: 
+    - Name: FilterMaskTexture2D
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  RandomSeed: 0
+  GenerateRandomSeed: 0
+  RenamingName: Group
+  Renaming: 0

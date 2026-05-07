@@ -1,0 +1,2329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2667aae7eaa2da44eb7c5015b5d2be5a, type: 3}
+  m_Name: Group 4
+  m_EditorClassIdentifier: Assembly-CSharp::VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Group
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 4437463582085609296, guid: e3e9e017aca2a734091f2308ba490095, type: 3}
+    - {fileID: 9031189764249414117, guid: 5fef5c7453164a5458e955627e14dd34, type: 3}
+    - {fileID: 4694953773253381868, guid: 5000f77318624fb4e92e9b7690206859, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _prototypeType
+      Entry: 7
+      Data: 0|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.PrototypeGameObject,
+        Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: PrototypeList
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.Prototype,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 2|VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.PrototypeGameObject,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 78016
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: Active
+      Entry: 5
+      Data: true
+    - Name: ComponentStack
+      Entry: 7
+      Data: 3|VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 5|VladislavTsurikov.MegaWorld.BrushEraseTool.ScriptsEditor.PrototypeSettings.AdditionalEraseComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VladislavTsurikov.MegaWorld.BrushEraseTool.ScriptsEditor.BrushEraseTool,
+        Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: SuccessForErase
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.SuccessComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 10|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VladislavTsurikov.MegaWorld.SprayBrushTool.ScriptsEditor.SprayBrushTool,
+        Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VladislavTsurikov.MegaWorld.AdvancedBrushTool.ScriptsEditor.AdvancedBrushTool,
+        Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VladislavTsurikov.MegaWorld.TerrainSpawner.Scripts.TerrainSpawner, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: SuccessValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapCheckComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: OverlapShape
+      Entry: 3
+      Data: 2
+    - Name: BoundsCheck
+      Entry: 7
+      Data: 15|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapChecks.BoundsCheck,
+        Assembly-CSharp
+    - Name: BoundsType
+      Entry: 3
+      Data: 1
+    - Name: UniformBoundsSize
+      Entry: 5
+      Data: false
+    - Name: BoundsSize
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MultiplyBoundsSize
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SphereCheck
+      Entry: 7
+      Data: 16|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapChecks.SphereCheck,
+        Assembly-CSharp
+    - Name: VegetationMode
+      Entry: 5
+      Data: true
+    - Name: Size
+      Entry: 4
+      Data: 3.5
+    - Name: Priority
+      Entry: 3
+      Data: 0
+    - Name: ViabilitySize
+      Entry: 4
+      Data: 4
+    - Name: TrunkSize
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CollisionCheck
+      Entry: 7
+      Data: 17|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapChecks.CollisionCheck,
+        Assembly-CSharp
+    - Name: multiplyBoundsSize
+      Entry: 4
+      Data: 1
+    - Name: collisionCheckType
+      Entry: 5
+      Data: false
+    - Name: checkCollisionLayers
+      Entry: 7
+      Data: UnityEngine.LayerMask, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.SimpleTransformComponentComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: Stack
+      Entry: 7
+      Data: 20|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 22|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.PositionOffset,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: MinPositionOffsetY
+      Entry: 4
+      Data: -0.15
+    - Name: MaxPositionOffsetY
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Rotation,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: RandomizeOrientationX
+      Entry: 4
+      Data: 5
+    - Name: RandomizeOrientationY
+      Entry: 4
+      Data: 100
+    - Name: RandomizeOrientationZ
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Scale,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UniformScale
+      Entry: 5
+      Data: true
+    - Name: MinScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaxScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformStackComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 26|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: Stack
+      Entry: 7
+      Data: 27|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 29|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.PositionOffset,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: MinPositionOffsetY
+      Entry: 4
+      Data: -0.15
+    - Name: MaxPositionOffsetY
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Rotation,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: RandomizeOrientationX
+      Entry: 4
+      Data: 5
+    - Name: RandomizeOrientationY
+      Entry: 4
+      Data: 100
+    - Name: RandomizeOrientationZ
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Scale,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UniformScale
+      Entry: 5
+      Data: true
+    - Name: MinScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaxScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prefab
+      Entry: 10
+      Data: 0
+    - Name: Extents
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 63.5305634
+    - Name: 
+      Entry: 4
+      Data: 53.5425148
+    - Name: 
+      Entry: 4
+      Data: 61.71089
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.PrototypeGameObject,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 78064
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: Active
+      Entry: 5
+      Data: true
+    - Name: ComponentStack
+      Entry: 7
+      Data: 33|VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 34|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 35|VladislavTsurikov.MegaWorld.BrushEraseTool.ScriptsEditor.PrototypeSettings.AdditionalEraseComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: SuccessForErase
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.SuccessComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 38|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: SuccessValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 39|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapCheckComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 40|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: OverlapShape
+      Entry: 3
+      Data: 2
+    - Name: BoundsCheck
+      Entry: 7
+      Data: 41|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapChecks.BoundsCheck,
+        Assembly-CSharp
+    - Name: BoundsType
+      Entry: 3
+      Data: 1
+    - Name: UniformBoundsSize
+      Entry: 5
+      Data: false
+    - Name: BoundsSize
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MultiplyBoundsSize
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SphereCheck
+      Entry: 7
+      Data: 42|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapChecks.SphereCheck,
+        Assembly-CSharp
+    - Name: VegetationMode
+      Entry: 5
+      Data: true
+    - Name: Size
+      Entry: 4
+      Data: 3.5
+    - Name: Priority
+      Entry: 3
+      Data: 0
+    - Name: ViabilitySize
+      Entry: 4
+      Data: 4
+    - Name: TrunkSize
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CollisionCheck
+      Entry: 7
+      Data: 43|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapChecks.CollisionCheck,
+        Assembly-CSharp
+    - Name: multiplyBoundsSize
+      Entry: 4
+      Data: 1
+    - Name: collisionCheckType
+      Entry: 5
+      Data: false
+    - Name: checkCollisionLayers
+      Entry: 7
+      Data: UnityEngine.LayerMask, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.SimpleTransformComponentComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 45|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: Stack
+      Entry: 7
+      Data: 46|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 48|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.PositionOffset,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: MinPositionOffsetY
+      Entry: 4
+      Data: -0.15
+    - Name: MaxPositionOffsetY
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Rotation,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: RandomizeOrientationX
+      Entry: 4
+      Data: 5
+    - Name: RandomizeOrientationY
+      Entry: 4
+      Data: 100
+    - Name: RandomizeOrientationZ
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Scale,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UniformScale
+      Entry: 5
+      Data: true
+    - Name: MinScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaxScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 51|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformStackComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: Stack
+      Entry: 7
+      Data: 53|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 54|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 55|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.PositionOffset,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: MinPositionOffsetY
+      Entry: 4
+      Data: -0.15
+    - Name: MaxPositionOffsetY
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 56|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Rotation,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: RandomizeOrientationX
+      Entry: 4
+      Data: 5
+    - Name: RandomizeOrientationY
+      Entry: 4
+      Data: 100
+    - Name: RandomizeOrientationZ
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 57|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Scale,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UniformScale
+      Entry: 5
+      Data: true
+    - Name: MinScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaxScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prefab
+      Entry: 10
+      Data: 1
+    - Name: Extents
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 56.87181
+    - Name: 
+      Entry: 4
+      Data: 49.8880768
+    - Name: 
+      Entry: 4
+      Data: 59.9243164
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|VladislavTsurikov.MegaWorld.Core.Scripts.SelectionData.Prototypes.PrototypeGameObject,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 79248
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: Active
+      Entry: 5
+      Data: true
+    - Name: ComponentStack
+      Entry: 7
+      Data: 59|VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 60|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 61|VladislavTsurikov.MegaWorld.BrushEraseTool.ScriptsEditor.PrototypeSettings.AdditionalEraseComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 62|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: SuccessForErase
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 63|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.SuccessComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 64|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: SuccessValue
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 65|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapCheckComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 66|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: OverlapShape
+      Entry: 3
+      Data: 2
+    - Name: BoundsCheck
+      Entry: 7
+      Data: 67|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapChecks.BoundsCheck,
+        Assembly-CSharp
+    - Name: BoundsType
+      Entry: 3
+      Data: 1
+    - Name: UniformBoundsSize
+      Entry: 5
+      Data: false
+    - Name: BoundsSize
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MultiplyBoundsSize
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SphereCheck
+      Entry: 7
+      Data: 68|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapChecks.SphereCheck,
+        Assembly-CSharp
+    - Name: VegetationMode
+      Entry: 5
+      Data: true
+    - Name: Size
+      Entry: 4
+      Data: 3.5
+    - Name: Priority
+      Entry: 3
+      Data: 0
+    - Name: ViabilitySize
+      Entry: 4
+      Data: 4
+    - Name: TrunkSize
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CollisionCheck
+      Entry: 7
+      Data: 69|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.OverlapCheckSettings.OverlapChecks.CollisionCheck,
+        Assembly-CSharp
+    - Name: multiplyBoundsSize
+      Entry: 4
+      Data: 1
+    - Name: collisionCheckType
+      Entry: 5
+      Data: false
+    - Name: checkCollisionLayers
+      Entry: 7
+      Data: UnityEngine.LayerMask, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 70|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.SimpleTransformComponentComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 71|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: Stack
+      Entry: 7
+      Data: 72|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 73|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 74|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.PositionOffset,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: MinPositionOffsetY
+      Entry: 4
+      Data: -0.15
+    - Name: MaxPositionOffsetY
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 75|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Rotation,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: RandomizeOrientationX
+      Entry: 4
+      Data: 5
+    - Name: RandomizeOrientationY
+      Entry: 4
+      Data: 100
+    - Name: RandomizeOrientationZ
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 76|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Scale,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UniformScale
+      Entry: 5
+      Data: true
+    - Name: MinScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaxScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 77|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformStackComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 78|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: Stack
+      Entry: 7
+      Data: 79|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 80|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.TransformComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 81|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.PositionOffset,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: MinPositionOffsetY
+      Entry: 4
+      Data: -0.15
+    - Name: MaxPositionOffsetY
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 82|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Rotation,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: RandomizeOrientationX
+      Entry: 4
+      Data: 5
+    - Name: RandomizeOrientationY
+      Entry: 4
+      Data: 100
+    - Name: RandomizeOrientationZ
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 83|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.TransformComponentsSystem.Components.Scale,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UniformScale
+      Entry: 5
+      Data: true
+    - Name: MinScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaxScale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 4
+      Data: 1.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prefab
+      Entry: 10
+      Data: 2
+    - Name: Extents
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 62.2538452
+    - Name: 
+      Entry: 4
+      Data: 42.76429
+    - Name: 
+      Entry: 4
+      Data: 57.7299347
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ComponentStack
+      Entry: 7
+      Data: 84|VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponentStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 85|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.Core.Scripts.SettingsSystem.BaseComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 86|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.FilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 87|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: FilterType
+      Entry: 3
+      Data: 1
+    - Name: SimpleFilterComponent
+      Entry: 7
+      Data: 88|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.SimpleFilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 89|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: UseFalloff
+      Entry: 5
+      Data: true
+    - Name: CheckHeight
+      Entry: 5
+      Data: false
+    - Name: CheckSlope
+      Entry: 5
+      Data: false
+    - Name: CheckGlobalFractalNoise
+      Entry: 5
+      Data: false
+    - Name: MinHeight
+      Entry: 4
+      Data: 0
+    - Name: MaxHeight
+      Entry: 4
+      Data: 0
+    - Name: HeightFalloffType
+      Entry: 3
+      Data: 1
+    - Name: HeightFalloffMinMax
+      Entry: 5
+      Data: false
+    - Name: MinAddHeightFalloff
+      Entry: 4
+      Data: 20
+    - Name: MaxAddHeightFalloff
+      Entry: 4
+      Data: 20
+    - Name: AddHeightFalloff
+      Entry: 4
+      Data: 20
+    - Name: MinSlope
+      Entry: 4
+      Data: 0
+    - Name: MaxSlope
+      Entry: 4
+      Data: 20
+    - Name: SlopeFalloffType
+      Entry: 3
+      Data: 1
+    - Name: SlopeFalloffMinMax
+      Entry: 5
+      Data: true
+    - Name: MinAddSlopeFalloff
+      Entry: 4
+      Data: 30
+    - Name: MaxAddSlopeFalloff
+      Entry: 4
+      Data: 30
+    - Name: AddSlopeFalloff
+      Entry: 4
+      Data: 30
+    - Name: NoiseTexture
+      Entry: 6
+      Data: 
+    - Name: Fractal
+      Entry: 7
+      Data: 90|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.CPUNoise.FractalNoiseCPU,
+        Assembly-CSharp
+    - Name: noiseType
+      Entry: 3
+      Data: 0
+    - Name: seed
+      Entry: 3
+      Data: 0
+    - Name: octaves
+      Entry: 3
+      Data: 3
+    - Name: frequency
+      Entry: 4
+      Data: 0.03
+    - Name: lacunarity
+      Entry: 4
+      Data: 2
+    - Name: persistence
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RangeMin
+      Entry: 4
+      Data: -0.5
+    - Name: RangeMax
+      Entry: 4
+      Data: 0.5
+    - Name: NoisePreviewTexture
+      Entry: 5
+      Data: false
+    - Name: RemapNoiseMin
+      Entry: 4
+      Data: 0
+    - Name: RemapNoiseMax
+      Entry: 4
+      Data: 1
+    - Name: Invert
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaskFilterComponent
+      Entry: 7
+      Data: 91|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 92|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: Stack
+      Entry: 7
+      Data: 93|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 94|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilter,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FilterContext
+      Entry: 6
+      Data: 
+    - Name: FilterMaskTexture2D
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 95|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.SimpleFilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 96|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: UseFalloff
+      Entry: 5
+      Data: true
+    - Name: CheckHeight
+      Entry: 5
+      Data: false
+    - Name: CheckSlope
+      Entry: 5
+      Data: false
+    - Name: CheckGlobalFractalNoise
+      Entry: 5
+      Data: false
+    - Name: MinHeight
+      Entry: 4
+      Data: 0
+    - Name: MaxHeight
+      Entry: 4
+      Data: 0
+    - Name: HeightFalloffType
+      Entry: 3
+      Data: 1
+    - Name: HeightFalloffMinMax
+      Entry: 5
+      Data: false
+    - Name: MinAddHeightFalloff
+      Entry: 4
+      Data: 20
+    - Name: MaxAddHeightFalloff
+      Entry: 4
+      Data: 20
+    - Name: AddHeightFalloff
+      Entry: 4
+      Data: 20
+    - Name: MinSlope
+      Entry: 4
+      Data: 0
+    - Name: MaxSlope
+      Entry: 4
+      Data: 20
+    - Name: SlopeFalloffType
+      Entry: 3
+      Data: 1
+    - Name: SlopeFalloffMinMax
+      Entry: 5
+      Data: true
+    - Name: MinAddSlopeFalloff
+      Entry: 4
+      Data: 30
+    - Name: MaxAddSlopeFalloff
+      Entry: 4
+      Data: 30
+    - Name: AddSlopeFalloff
+      Entry: 4
+      Data: 30
+    - Name: NoiseTexture
+      Entry: 6
+      Data: 
+    - Name: Fractal
+      Entry: 7
+      Data: 97|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.CPUNoise.FractalNoiseCPU,
+        Assembly-CSharp
+    - Name: noiseType
+      Entry: 3
+      Data: 0
+    - Name: seed
+      Entry: 3
+      Data: 0
+    - Name: octaves
+      Entry: 3
+      Data: 3
+    - Name: frequency
+      Entry: 4
+      Data: 0.03
+    - Name: lacunarity
+      Entry: 4
+      Data: 2
+    - Name: persistence
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RangeMin
+      Entry: 4
+      Data: -0.5
+    - Name: RangeMax
+      Entry: 4
+      Data: 0.5
+    - Name: NoisePreviewTexture
+      Entry: 5
+      Data: false
+    - Name: RemapNoiseMin
+      Entry: 4
+      Data: 0
+    - Name: RemapNoiseMax
+      Entry: 4
+      Data: 1
+    - Name: Invert
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 98|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.ScatterSettingsSystem.ScatterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 99|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: Stack
+      Entry: 7
+      Data: 100|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.ScatterSettingsSystem.ScatterStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 101|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.ScatterSettingsSystem.Scatter,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 102|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.ScatterSettingsSystem.ScatterAlgorithms.RandomGrid,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: true
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: RandomisationType
+      Entry: 3
+      Data: 1
+    - Name: Vastness
+      Entry: 4
+      Data: 1
+    - Name: UniformGrid
+      Entry: 5
+      Data: true
+    - Name: GridStep
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GridAngle
+      Entry: 4
+      Data: 0
+    - Name: FailureRate
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 103|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.FilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 104|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: true
+    - Name: FilterType
+      Entry: 3
+      Data: 1
+    - Name: SimpleFilterComponent
+      Entry: 7
+      Data: 105|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.SimpleFilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 106|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: UseFalloff
+      Entry: 5
+      Data: true
+    - Name: CheckHeight
+      Entry: 5
+      Data: false
+    - Name: CheckSlope
+      Entry: 5
+      Data: false
+    - Name: CheckGlobalFractalNoise
+      Entry: 5
+      Data: false
+    - Name: MinHeight
+      Entry: 4
+      Data: 0
+    - Name: MaxHeight
+      Entry: 4
+      Data: 0
+    - Name: HeightFalloffType
+      Entry: 3
+      Data: 1
+    - Name: HeightFalloffMinMax
+      Entry: 5
+      Data: false
+    - Name: MinAddHeightFalloff
+      Entry: 4
+      Data: 20
+    - Name: MaxAddHeightFalloff
+      Entry: 4
+      Data: 20
+    - Name: AddHeightFalloff
+      Entry: 4
+      Data: 20
+    - Name: MinSlope
+      Entry: 4
+      Data: 0
+    - Name: MaxSlope
+      Entry: 4
+      Data: 20
+    - Name: SlopeFalloffType
+      Entry: 3
+      Data: 1
+    - Name: SlopeFalloffMinMax
+      Entry: 5
+      Data: true
+    - Name: MinAddSlopeFalloff
+      Entry: 4
+      Data: 30
+    - Name: MaxAddSlopeFalloff
+      Entry: 4
+      Data: 30
+    - Name: AddSlopeFalloff
+      Entry: 4
+      Data: 30
+    - Name: NoiseTexture
+      Entry: 6
+      Data: 
+    - Name: Fractal
+      Entry: 7
+      Data: 107|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.CPUNoise.FractalNoiseCPU,
+        Assembly-CSharp
+    - Name: noiseType
+      Entry: 3
+      Data: 0
+    - Name: seed
+      Entry: 3
+      Data: 0
+    - Name: octaves
+      Entry: 3
+      Data: 3
+    - Name: frequency
+      Entry: 4
+      Data: 0.03
+    - Name: lacunarity
+      Entry: 4
+      Data: 2
+    - Name: persistence
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RangeMin
+      Entry: 4
+      Data: -0.5
+    - Name: RangeMax
+      Entry: 4
+      Data: 0.5
+    - Name: NoisePreviewTexture
+      Entry: 5
+      Data: false
+    - Name: RemapNoiseMin
+      Entry: 4
+      Data: 0
+    - Name: RemapNoiseMax
+      Entry: 4
+      Data: 1
+    - Name: Invert
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaskFilterComponent
+      Entry: 7
+      Data: 108|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterComponent,
+        Assembly-CSharp
+    - Name: _selected
+      Entry: 5
+      Data: false
+    - Name: _active
+      Entry: 5
+      Data: true
+    - Name: UsedTools
+      Entry: 7
+      Data: 109|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: General
+      Entry: 5
+      Data: false
+    - Name: Stack
+      Entry: 7
+      Data: 110|VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilterStack,
+        Assembly-CSharp
+    - Name: ComponentList
+      Entry: 7
+      Data: 111|System.Collections.Generic.List`1[[VladislavTsurikov.MegaWorld.CommonScripts.Scripts.Settings.MaskFilters.MaskFilter,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FilterContext
+      Entry: 6
+      Data: 
+    - Name: FilterMaskTexture2D
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  RandomSeed: 0
+  GenerateRandomSeed: 0
+  RenamingName: Group
+  Renaming: 0
