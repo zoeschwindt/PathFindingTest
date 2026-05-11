@@ -31,7 +31,7 @@ MonoBehaviour:
     SerializationNodes:
     - Name: _selected
       Entry: 5
-      Data: true
+      Data: false
     - Name: _prototypeType
       Entry: 7
       Data: 0|System.RuntimeType, mscorlib
@@ -190,7 +190,7 @@ MonoBehaviour:
       Data: 76116
     - Name: _selected
       Entry: 5
-      Data: true
+      Data: false
     - Name: Active
       Entry: 5
       Data: true
