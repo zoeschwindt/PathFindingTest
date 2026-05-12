@@ -1,21 +1,28 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class OIL : MonoBehaviour
 {
-    public float slowMultiplier = 0.5f;
+    [Header("Configuración")]
+    [SerializeField] private float slowMultiplier = 0.5f;
+
+    private Dictionary<NavMeshAgent, float> velocidadesOriginales = new Dictionary<NavMeshAgent, float>();
 
     private void OnTriggerEnter(Collider other)
     {
-        // IA
+        // IA con NavMeshAgent
         NavMeshAgent agent = other.GetComponentInParent<NavMeshAgent>();
-        if (agent != null)
+
+        if (agent != null && !velocidadesOriginales.ContainsKey(agent))
         {
-            agent.speed *= slowMultiplier;
+            velocidadesOriginales.Add(agent, agent.speed);
+            agent.speed = agent.speed * slowMultiplier;
         }
 
-        // JUGADOR
+        // Jugador
         HomerControl player = other.GetComponentInParent<HomerControl>();
+
         if (player != null)
         {
             player.SetSpeedMultiplier(slowMultiplier);
@@ -24,13 +31,18 @@ public class OIL : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        // IA con NavMeshAgent
         NavMeshAgent agent = other.GetComponentInParent<NavMeshAgent>();
-        if (agent != null)
+
+        if (agent != null && velocidadesOriginales.ContainsKey(agent))
         {
-            agent.speed /= slowMultiplier;
+            agent.speed = velocidadesOriginales[agent];
+            velocidadesOriginales.Remove(agent);
         }
 
+        // Jugador
         HomerControl player = other.GetComponentInParent<HomerControl>();
+
         if (player != null)
         {
             player.SetSpeedMultiplier(1f);
