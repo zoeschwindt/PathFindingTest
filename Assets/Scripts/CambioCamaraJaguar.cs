@@ -148,7 +148,7 @@ public class CambioCamaraJaguar : MonoBehaviour
 
         camPrimeraPersona.transform.position = objetivo.position;
 
-        Quaternion rotacionBase = jaguar.rotation;
+        Quaternion rotacionBase = puntoCamaraPrimera.rotation;
         Quaternion rotacionMouse = Quaternion.Euler(pitchPrimera, yawPrimera, 0f);
 
         camPrimeraPersona.transform.rotation = rotacionBase * rotacionMouse;
